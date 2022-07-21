@@ -1,0 +1,119 @@
+@media (max-width: 1024px) {
+
+    .nav_toggle {
+        display: inline-block;    }
+
+    .nav-menu .logo_nav_toggle{
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 10px;    }
+        
+    .nav-menu ul{
+        display: none;     }
+
+    #nav_toggle:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;     }    
+
+    .nav-menu .logo{
+        display: none;     }
+
+    .nav-menu li:not(:last-child){
+        padding-right: 0;     }
+
+    .nav-menu li{
+        margin-bottom: 15px;     }
+
+    .nav-menu li:nth-child(3n) {
+        margin:0     }
+
+    .nav-menu .active {
+        text-decoration: none;     }
+
+    .nav-menu li a{
+        color: black; 
+        font-size: 20px;
+        font-weight: bold;     }
+
+    .nav-menu ul{
+        position: absolute; 
+             
+        background-color: #519dab;
+        opacity: .7;
+        min-width: 100px;
+        height: 50%;
+        padding-left: 47px;     }
+
+    .img-section2 {
+        width: 310px;
+        height: 470px;     }
+
+    .promo-content2 {
+        padding-right: 100px;     }
+
+    .wrapper-section3 {
+        justify-content: center;
+        flex-direction: column;     }
+
+    .promo-content3 {
+        padding-right: 0;     }
+
+    .img-section4 {
+        width: 310px;
+        height: 482px;     }
+
+    .promo-content4 {
+        padding-right: 0px;
+        padding-left: 50px;    } 
+}
+
+@media (max-width: 768px) {
+    .promo-content1 h1 {
+        padding-top: 136px;
+        text-align: center;
+        font-size: 60px;      }   
+
+    .top-social {
+        padding-top: 107px; }
+    
+    
+    .wrapper-section2 {
+        flex-direction: column;
+        justify-content: space-around;  }
+
+    .promo-content2 {
+        padding-right: 0;     }
+    
+    .promo-img-section3 .img-section3 {
+        width: 420px;    }
+    
+    .promo-img-section3 .button {
+        padding-bottom: 0; 
+        left: 0;            }
+            
+    .wrapper-section4 {
+        flex-direction: column;   }
+
+    .promo-content4 {
+        padding-left: 0 !important;   }
+}
+
+@media (max-width: 425px) {
+
+    .promo-content1 h1 {
+        letter-spacing: 0; 
+        font-size: 51px;
+        padding-top: 95px!important;  
+        line-height: 60px; 
+        letter-spacing: 3.5px;
+    }
+
+    .promo-content1 p {
+        width: 320px;
+        height: 80px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
